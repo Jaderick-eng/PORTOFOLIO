@@ -1,0 +1,158 @@
+<html>
+<head>
+<style>
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #fffefe;
+  background-color: #cdcdcd ;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+background-color: #ddd;    
+}
+
+li a.active {
+  color: white;
+  background-color: #04AA6D;
+}
+
+</style>
+</head>
+<body>
+
+<ul>
+    <!-- MAIN (Center website) -->
+<div class="main">
+    <h1><img src="Jaderick (2).png" height="150px" width="150px"> Jaderick Adrian Namora Tjahja </h1>
+    <hr>
+    <p>Saya telah mencapai berbagai prestasi sebelum dan setelah masuk ke Kolese Kanisius pada tahun 2022, berikut ini adalah prestasi-prestasi yang saya telah capai.</p>
+    
+
+    <ul> 
+       <li><a class="notactive" href="Overview.html">Data diri</a></li>
+       <li><a class="active" href="PORTFOLIO1.html">Portfolio</a></li>
+       <li><a class="notactive" href="forms.html">Form</a></li>
+     </ul>
+    
+    <!-- Portfolio Gallery Grid -->
+    <div class="row">
+      <div class="column">
+        <div class="content">
+          <img src="WhatsApp Image 2024-09-30 at 20.16.58.jpeg" alt="Jaderick" style="width:100%">
+          <h3>Introduce myself</h3>
+          <p>Jaderick Adrian Namora Tjahja</p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="content">
+          <img src="WhatsApp Image 2024-09-30 at 22.22.54.jpeg" alt="Achievements other than academic" style="width:100%">
+          <h3>Achievements other than academic</h3>
+          <p>CC5K</p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="content">
+          <img src="cup.jpg" alt="Achievements in 2022" style="width:100%">
+          <h3>Achievements in 2022</h3>
+          <p>7th Place in Math's competition for 6 graders</p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="content">
+          <img src="WhatsApp Image 2024-09-30 at 22.13.10.jpeg" alt="Achievements in 2023" style="width:100%">
+          <h3>Achievements in 2023</h3>
+          <p>Cum Laude for acedemic (85,18) and non academic standards(185)</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="content">
+      <img src="CUMLAUDE.jpg" alt="Recent Achievement" style="width:100%">
+      <h3>Recent Achievement</h3>
+      <p>Cum Laude for academic standards, with an academic score of 88,18</p>
+    </div>
+    <p>Copyright &copy; 2024 Jaderick Adrian Namora Tjahja</p>
+    <!-- END MAIN -->
+    </div>
+</ul>
+
